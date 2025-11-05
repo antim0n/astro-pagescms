@@ -1,4 +1,9 @@
-media: src/assets
+media:
+  - name: images
+    label: Images
+    input: src/assets
+    output: /images
+    extensions: [ png, jpg ]
 content:
   - name: posts
     label: Posts
