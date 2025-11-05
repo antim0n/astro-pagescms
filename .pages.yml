@@ -13,7 +13,7 @@ content:
         label: PubDate
         type: date
         options:
-          format: MM-dd-yyyy
+          format: MMM-dd-yyyy
       - { name: heroImage, label: HeroImage, type: image }
       
   
