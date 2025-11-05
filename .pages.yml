@@ -18,5 +18,6 @@ content:
         options:
           format: MMM dd yyyy
       - { name: heroImage, label: HeroImage, type: image }
+      - { name: body, label: Content, type: rich-text }
       
   
