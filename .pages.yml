@@ -9,7 +9,11 @@ content:
     fields:
       - { name: title, label: Title, type: string }
       - { name: description, label: Description, type: string }
-      - { name: pubDate, label: PubDate, type: date }
+      - name: pubDate
+        label: PubDate
+        type: date
+        options:
+          format: MM-dd-yyyy
       - { name: heroImage, label: HeroImage, type: image }
       
   
